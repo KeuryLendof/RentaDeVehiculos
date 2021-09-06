@@ -25,6 +25,37 @@
     box-shadow: lightblue 3px 3px;
 }
 
+@media (min-width: 768px){
+    .contenido-nosotros{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 2rem;
+    }
+}
+
+@media (min-width: 768px){
+    .entrada-blog .imagen{
+        flex-basis: 40%;
+    
+    }
+    .entrada-blog .texto-entrada{
+        flex-basis: calc(60% - 3rem)
+    }
+}
+
+.texto-nosotros p {
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.fw-300{
+    font-weight: 300;
+}
+.centrar-texto{
+    color: black;
+    text-align: center;
+}
+
 .footer {
     height: 4.5rem;
     padding: 0 1rem;
